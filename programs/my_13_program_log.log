@@ -1,0 +1,13 @@
+INFO : 2024-12-19 17:24:32,350 : 13_program_on_logging.py : This is INFO
+DEBUG : 2024-12-19 17:24:32,350 : 13_program_on_logging.py : This is DEBUG
+WARNING : 2024-12-19 17:24:32,350 : 13_program_on_logging.py : This is WARNING
+CRITICAL : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : This is CRITICAL
+ERROR : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : This is ERROR
+INFO : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : Reached try block
+INFO : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : Opening file for reading
+INFO : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : Reached except block
+ERROR : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : File reading failed, Error message is:[Errno 2] No such file or directory: 'xyzabc.txt'
+INFO : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : Stopping program execution
+INFO : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : Reached finally block
+INFO : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : Closing file  handle
+ERROR : 2024-12-19 17:24:32,351 : 13_program_on_logging.py : Closing file handle failed. Error message is: name 'my_file_handle' is not defined
